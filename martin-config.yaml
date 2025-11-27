@@ -1,8 +1,8 @@
 postgres:
   connection_string: postgresql://postgres:pass123@postgis/geodatadb
-  auto_publish: false
-  tables:
-  functions: {}
+  auto_publish:
+    from_schemas:
+      - canarias
 pmtiles: 
 
 mbtiles: 
