@@ -1,0 +1,13 @@
+postgres:
+  connection_string: postgresql://postgres:pass123@postgis/geodatadb
+  auto_publish: false
+  tables:
+  functions: {}
+pmtiles: 
+
+mbtiles: 
+  - /mbtiles/zoran/africa_vtiles_4.mbtiles
+# cog: 
+sprites:
+  sources:
+    zorn_sprite: /sprites/zoran
